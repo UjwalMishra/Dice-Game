@@ -11,7 +11,7 @@ function Home() {
     <div className='max-w-[1180px] flex mx-auto justify-around items-center pt-12'>
 
     <div>
-      <img src="./public/images/dices.png" />
+      <img src="/images/dices.png" />
     </div>
 
     <div className='flex flex-col items-end'>
