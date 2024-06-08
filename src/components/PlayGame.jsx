@@ -42,7 +42,7 @@ function PlayGame() {
 
   return (
     <div>
-      <div className="flex justify-between px-8 mt-[70px]">
+      <div className="flex flex-col md:flex-row justify-center md:justify-between items-center md:px-8 mt-[50px] md:mt-[70px]">
         <TotalScore score={score}></TotalScore>
         <NumSelector
           selectNum={selectNum}
