@@ -10,7 +10,7 @@ export const RollDice = ({currentDice,rollDice}) => {
     onClick={rollDice}
     >
         <img
-        src={`../public/images/dice/dice_${currentDice}.png`} 
+        src={`/images/dice/dice_${currentDice}.png`} 
         width={200}
         alt="" />
         <p className='text-[24px] font-[500]'>Click on Dice to roll</p>

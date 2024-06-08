@@ -10,9 +10,9 @@ const ShowRules = () => {
   return (
     <div className="mt-16 md:mt-8 flex flex-col justify-between">
       <div className="flex justify-evenly mb-16">
-        <img src="../public/images/dice/dice_1.png" width={100} alt="" />
-        <img src="../public/images/dice/dice_2.png" width={100} alt="" />
-        <img src="../public/images/dice/dice_3.png" width={100} alt="" />
+        <img src="/images/dice/dice_1.png" width={100} alt="" />
+        <img src="/images/dice/dice_2.png" width={100} alt="" />
+        <img src="/images/dice/dice_3.png" width={100} alt="" />
       </div>
 
       <div className="w-[320px] md:w-[800px] flex flex-col mx-[30px] md:mx-[250px]">
@@ -38,9 +38,9 @@ const ShowRules = () => {
         </div>
       </div>
       <div className="flex justify-evenly mt-16">
-        <img src="../public/images/dice/dice_4.png" width={100} alt="" />
-        <img src="../public/images/dice/dice_5.png" width={100} alt="" />
-        <img src="../public/images/dice/dice_6.png" width={100} alt="" />
+        <img src="/images/dice/dice_4.png" width={100} alt="" />
+        <img src="/images/dice/dice_5.png" width={100} alt="" />
+        <img src="/images/dice/dice_6.png" width={100} alt="" />
       </div>
     </div>
   );
